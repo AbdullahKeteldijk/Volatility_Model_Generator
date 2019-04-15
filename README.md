@@ -21,4 +21,4 @@ Furthermore there are some issues regarding the model estimation that we would l
 
 Next we would like to change the way we calculate the AIC and BIC of the realized GARCH model.At the moment our VMG method takes the whole likelihood value when calculating the VMG, while it should only be the first part for the AIC and BIC (In order to calculate the correct AIC and BIC, we made a separate program).  We also would like to use multiple distributions for the second part of the log likelihood.Finally we would like to add backtesting and VaR to the VMG method. These changes would allow us to deliver the all results of the models discussed in this paper very easily. 
 
-*NOTE: The model can be tested by running main.m.
+*NOTE: The method can be tested by running main.m.
